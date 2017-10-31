@@ -31,6 +31,11 @@ public class person {
 			 x = x + 2;
 			 x +=2;
 			 System.out.println(x);
+			 //字串轉整數
+			 String data = "123";
+			 int n = Integer.parseInt(data);
+			//字串轉整數
+			 String mydata = String.valueOf(n);
 	}
 
 }
