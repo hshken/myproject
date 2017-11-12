@@ -3,7 +3,9 @@ package hshken;
 public class test2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("½Ð¿é¤J¼Æ¦r");
+		
+		System.out.println();
 
 	}
 

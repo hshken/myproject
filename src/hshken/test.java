@@ -13,9 +13,9 @@ public class test {
 		String line = scanner.nextLine();
 		int number = Integer.parseInt(line);
 		if(number < 3){
-			System.out.println("3");
+			System.out.println("答案是3");
 		}else{
-			if(number = 3)
+			if(number == 3)
 			System.out.println("恭喜你答對了");
 
 	}
