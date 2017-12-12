@@ -6,11 +6,15 @@ public class Student {
 	int chinese;
 	String name;
 	
-	public Student(String n , int e , int m , int c ){
-		name = n;
-		english = e;
-		chinese = c;
+	public Student(String name , int english , int math , int chinese ){
+		this.name = name;
+		this.english = english;
+		this.chinese = chinese;
+		this.math = math;
 		}
+	public Student(String n){
+		this.name = n ;
+	}
 	public void print(){
 		System.out.println(english +"\t"+
 	math +"\t" + chinese);
