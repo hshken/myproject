@@ -1,21 +1,21 @@
-package hshken;
+package com.hshken;
 
 import java.util.Scanner;
 
 public class agetester{
 
 	public static void main(String[] args) {
-	 System.out.println("½Ð¿é¤J§Aªº¦~ÄÖ");
+	 System.out.println("ï¿½Ð¿ï¿½Jï¿½Aï¿½ï¿½ï¿½~ï¿½ï¿½");
 	 Scanner scanner = new Scanner(System.in);
 	 String line = scanner.nextLine();
 	 int age = Integer.parseInt(line);
 	 if (age < 12){
-		 System.out.println("¤p¾Ç?");}
-	 else{ if(age < 15){System.out.println("°ê¤¤?");}
-	 else{ if(age < 18){System.out.println("°ª¤¤?");}
+		 System.out.println("ï¿½pï¿½ï¿½?");}
+	 else{ if(age < 15){System.out.println("ï¿½ê¤¤?");}
+	 else{ if(age < 18){System.out.println("ï¿½ï¿½ï¿½ï¿½?");}
 	 else{System.out.println("...");
 	 for(int i = 1 ; i <= 5 ; i = i + 1){ 
-		 System.out.println("«¢«¢«¢");
+		 System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 		 
 	 }
 	   }

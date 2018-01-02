@@ -1,11 +1,11 @@
-package hshken;
+package com.hshken;
 
 import java.util.Scanner;
 
 public class Number {
 
 	public static void main(String[] args) {
-		System.out.println("請輸入一個數字 ");
+		System.out.println("請輸?���??�數�? ");
 		Scanner scanner = new Scanner(System.in);
 		String line = scanner.nextLine();
 		int number = Integer.parseInt(line);

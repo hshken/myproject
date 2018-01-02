@@ -1,4 +1,4 @@
-package hshken;
+package com.hshken;
 
 public class Niner2 {
 	public static void main(String[] args) {

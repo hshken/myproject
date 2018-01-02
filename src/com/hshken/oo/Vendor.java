@@ -1,4 +1,4 @@
-package hshken.oo;
+package com.hshken.oo;
 
 public class Vendor {
 

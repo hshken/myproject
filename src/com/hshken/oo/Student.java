@@ -1,8 +1,8 @@
-package hshken.oo;
+package com.hshken.oo;
 
 public class Student {
 	int english;
-	int math;
+	protected int math;
 	int chinese;
 	String name;
 	static int pass = 60;

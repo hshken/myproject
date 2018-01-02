@@ -1,4 +1,4 @@
-package hshken;
+package com.hshken;
 
 import java.util.Scanner;
 
@@ -13,12 +13,12 @@ public class GameTester2 {
 		int d = -1;
 		while( d != 0){
 			System.out.println("ä½ç½®" + pos + "HP:" + hp);
-			System.out.print("è«‹è¼¸å…¥æ–¹å‘");
+			System.out.print("è«‹è¼¸?…¥?–¹???");
 		String dir = scanner.nextLine();
 		 d = Integer.parseInt(dir);
 		switch (d) {
 		case 2:
-			System.out.println("å‘ä¸‹");
+			System.out.println("??‘ä??");
 			if (pos/col< row-1){
 				pos = pos + col;
 				hp = hp - 5;
@@ -26,17 +26,17 @@ public class GameTester2 {
 					hp = hp -30;
 				}
 		case 8:
-			System.out.println("å‘ä¸Š");
+			System.out.println("??‘ä??");
 			if (pos/col >0){
 				pos = pos - col;
 				hp = hp - 5;
 			}
 			break;
 		case 4:
-			System.out.println("å‘å·¦");
+			System.out.println("??‘å·¦");
 			break;
 		case 6:
-			System.out.println("å‘å³");
+			System.out.println("??‘å³");
 			break;
 		case 0:
 			break;
