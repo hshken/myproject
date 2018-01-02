@@ -8,7 +8,7 @@ public class Tester {
 	SilverCustomer c2 = new SilverCustomer(1000);
 	c2.print();
 	GoldenCustomer c3 = new GoldenCustomer(1000);
-	
+	c3.print();
 	}
 
 }
