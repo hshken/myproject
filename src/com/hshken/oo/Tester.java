@@ -3,9 +3,9 @@ package com.hshken.oo;
 public class Tester {
 
 	public static void main(String[] args) {
-		Student stu1 = new Student("王小明",43,86,97);
-		Student stu2 = new Student("王大明",55,76,99);
-//		Student stu = new Student("??��?��??");
+		Student stu1 = new Student("王大明",43,86,97);
+		Student stu2 = new Student("王曉明",55,76,99);
+//		Student stu = new Student("??嚙踝蕭?嚙踝蕭??");
 		//stu.english = 66;
 		//stu.math = 86;
 		//stu.chinese = 97;
