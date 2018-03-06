@@ -1,8 +1,7 @@
 package com.java2.object;
-
-public class member extends customer {
+public class Member extends Customer {
 	private float discount = 0.1f;
-	member (int price){
+	Member (int price){
 		super(price);
 	}
 	
@@ -13,3 +12,4 @@ public class member extends customer {
 		}
 	
 }
+
