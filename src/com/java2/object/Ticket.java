@@ -5,7 +5,7 @@ public class Ticket {
  int price;
  String arrive;
  String start;
- public Ticket(String arrive , String start , int trainnumber , int price ){
+ public Ticket(String start , String arrive , int trainnumber , int price ){
 	 this.arrive = arrive;
 	 this.start = start;
 	 this.trainnumber = trainnumber;
@@ -15,8 +15,8 @@ public class Ticket {
 	 this.trainnumber =trainnumber;
  }
  public void print(){
-	System.out.println(trainnumber +"\t"+
-start +"\t" + arrive+"\t"+price);
+	System.out.println(start +"\t"+
+arrive +"\t" + trainnumber+"\t"+price);
 	}
 }
 
