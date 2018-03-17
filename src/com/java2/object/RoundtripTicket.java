@@ -8,5 +8,6 @@ public class RoundtripTicket extends Ticket{
 	  public void print(){
 		  super.print();
 		  System.out.println(arrive +"\t"+
-				  start +"\t" + trainnumber+"\t"+price);			}
+				  start +"\t" + trainnumber+"\t"+price);			
+		  }
 }
