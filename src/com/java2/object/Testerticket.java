@@ -1,7 +1,5 @@
 package com.java2.object;
 
-import com.hshken.oo.Graduatestudent;
-
 public class Testerticket {
 
 	public static void main(String[] args) {
