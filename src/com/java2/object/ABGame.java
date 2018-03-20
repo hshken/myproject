@@ -5,7 +5,6 @@ public class ABGame {
 	public static void main(String[] args) {
 		int a = 0;
 		int b = 0;
-
 		String secret = "7536";
 		String nums = "1126";
 		int length = secret.length();
