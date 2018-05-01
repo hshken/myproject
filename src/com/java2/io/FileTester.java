@@ -1,4 +1,4 @@
-package com.java2.io;
+-package com.java2.io;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
