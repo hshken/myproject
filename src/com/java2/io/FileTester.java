@@ -1,4 +1,4 @@
--package com.java2.io;
+package com.java2.io;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -13,9 +13,11 @@ public class FileTester {
 			out.flush();
 			out.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("File not found");
+			e.printStackTrace();
+			//System.out.println("File not found");
 		} catch (IOException e) {
-			System.out.println("File output problem");
+			e.printStackTrace();
+			//System.out.println("File output problem");
 		}
 
 	}
