@@ -6,7 +6,8 @@ public class Snow extends Thread{
 	Random random = new Random();
 	int x;
 	int y = 800;
-	public Snow() {
+	public Snow(Canvas canvas) {
+		this.canvas = canvas;
 		x = random.nextInt(600);
 	}
 	@Override
