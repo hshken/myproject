@@ -19,7 +19,7 @@ public class VendingMain {
 		for(int i=0 ; i<= 3;i++){
 			String name = (tokens[i*2+1]);
 			int price = Integer.parseInt(tokens[i*2+2]);
-			vm
+			vm .drinks.add(new Drink(i, name, price));
 		}		
 } 
 		catch (FileNotFoundException e) {
