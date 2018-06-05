@@ -12,7 +12,7 @@ public class MyServer {
 	public static void main(String[] args) {
 		ServerSocket server;
 		try {
-			server = new ServerSocket(9958);	
+			server = new ServerSocket(9957);	
 			Socket socket = server.accept();
 			System.out.println("connected");
 			InputStream is = socket.getInputStream();
