@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class VendingMachine {
-	int total;
+	int total = 0;
 	List<Drink> drinks = new ArrayList<>();
 	
 	public void start(){
@@ -15,6 +15,14 @@ public class VendingMachine {
 			System.out.println(drink.getId() + "\t"+ drink.getName()+"\t"+drink.getPrice());
 		}
 		Scanner scanner = new Scanner(System.in);
-		String line = scanner.nextLine();
+		String drink = scanner.nextLine();
+		int d1 = -1;
+		while(d1 != 0){ 
+			 d1 = scanner.nextInt();
+			switch(d1) {
+			case 0:
+			break;
+			}
+		}
 	}
 }
