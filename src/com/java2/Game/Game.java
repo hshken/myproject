@@ -2,6 +2,9 @@ package com.java2.Game;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.util.Random;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Game {
 	public Game() {
@@ -16,7 +19,12 @@ public class Game {
 	line = bfr.readLine();
 	int snareCount = Integer.parseInt(line);
 	Maze a = new Maze(col,row,snareCount);
-	
+	Random r = new Random();
+	Set<String> set = new TreeSet<>();
+	while(set.size()< 5) {
+		String snare = String.valueOf(r.nextInt(24));
+		set.add(snare);
+	}
 		}
 	}
 	
