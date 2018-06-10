@@ -10,8 +10,12 @@ public class Game {
 	BufferedReader bfr = new BufferedReader(rd);
 	String line = bfr.readLine();
 	String[] steps = line.split(",");
-	int wid = Integer.parseInt(steps[0]);
-	int lon = Integer.parseInt(steps[1]);
+	int col = Integer.parseInt(steps[0]);
+	int row = Integer.parseInt(steps[1]);
+	
+	line = bfr.readLine();
+	int snareCount = Integer.parseInt(line);
+	Maze a = new Maze(col,row,snareCount);
 	
 		}
 	}
