@@ -47,6 +47,80 @@ public class Game {
 			System.out.println(steps[i]);
 			switch (steps[i]) {
 			case "8":
+				if (a.player.location / 6 == 0) {
+					System.out.println("撞牆!");
+					a.player.HP -= 5;
+				} else {
+					a.player.location -= 6;
+					for (int b = 0; b < set.size(); b++) {
+						if (a.Location[b] == a.player.location) {
+							walk = 1;
+						}
+					}
+					if (walk == 1) {
+						a.player.HP -= 20;
+					} else {
+						a.player.HP -= 1;
+					}
+				}
+				if (a.player.HP > 0) {
+					System.out.println("位置：" + a.player.location);
+					System.out.println("血量：" + a.player.HP);
+					break;
+				} else {
+					System.out.println("Game Over!");
+					break;
+				}
+			case "2":
+				if (a.player.location / 6 == 3) {
+					System.out.println("撞牆!");
+					a.player.HP -= 5;
+				} else {
+					a.player.location += 6;
+					for (int b = 0; b < set.size(); b++) {
+						if (a.Location[b] == a.player.location) {
+							walk = 1;
+						}
+					}
+					if (walk == 1) {
+						a.player.HP = 20;
+					} else {
+						a.player.HP = 1;
+					}
+				}
+				if (a.player.HP > 0) {
+					System.out.println("位置：" + a.player.location);
+					System.out.println("血量：" + a.player.HP);
+					break;
+				} else {
+					System.out.println("Game Over!");
+					break;
+				}
+			case "4":
+				if (a.player.location % 6 == 0) {
+					System.out.println("撞牆!");
+					a.player.HP -= 5;
+				} else {
+					a.player.location -= 1;
+					for (int b = 0; b < set.size(); b++) {
+						if (a.Location[b] == a.player.location) {
+							walk = 1;
+						}
+					}
+					if (walk == 1) {
+						a.player.HP -= 20;
+					} else {
+						a.player.HP -= 1;
+					}
+				}
+				if (a.player.HP > 0) {
+					System.out.println("目前位置：" + a.player.location);
+					System.out.println("目前血量：" + a.player.HP);
+					break;
+				} else {
+					System.out.println("Game Over!");
+					break;
+				}
 		}
 			}
 		
