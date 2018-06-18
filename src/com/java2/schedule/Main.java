@@ -11,6 +11,8 @@ import java.util.List;
 import com.java2.VendingMain.Drink;
 
 public class Main {
+	
+	public Main() {
 		
 		try {
 			FileReader fr = new FileReader("schedule.txt");
@@ -55,12 +57,12 @@ public class Main {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 	
-		
+			}
 	}
 		
 	public static void main (String[] args) {
 		new Main();
 }
-
+}
 
 
