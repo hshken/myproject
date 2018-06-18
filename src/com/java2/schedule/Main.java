@@ -11,9 +11,6 @@ import java.util.List;
 import com.java2.VendingMain.Drink;
 
 public class Main {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		try {
 			FileReader fr = new FileReader("schedule.txt");
@@ -47,7 +44,8 @@ public class Main {
 			for (int i = 0; i < tokens4.length; i++) {
 				schedule4.add(tokens4[i]);
 			}
-			
+			Schedule schedule = new Schedule(schedule1, schedule2, schedule3, schedule4);
+			schedule.Decide();
 			}
 			}
 		catch (FileNotFoundException e) {
@@ -58,7 +56,11 @@ public class Main {
 				e.printStackTrace();
 	
 		
-	}}}
+	}
+		
+	public static void main (String[] args) {
+		new Main();
+}
 
 
 
