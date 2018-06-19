@@ -58,6 +58,9 @@ public class Schedule {
 				System.out.println("空檔");
 			}
 			break;
+		case 0 :
+			System.out.println("結束");
+			break;
 		
 	}
 		
